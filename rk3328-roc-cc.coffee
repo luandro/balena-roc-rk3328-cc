@@ -3,11 +3,11 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 
 module.exports =
 	version: 1
-	slug: 'firefly-rk3328-cc'
-	aliases: [ 'firefly-rk3328-cc' ]
+	slug: 'rk3328-roc-cc'
+	aliases: [ 'rk3328-roc-cc' ]
 	name: 'FireFly rk3328-cc'
-	arch: 'armv7hf'
-	state: 'discontinued'
+	arch: 'aarch64'
+	state: 'released'
 
 	instructions: commonImg.instructions
 
@@ -19,11 +19,11 @@ module.exports =
 	supportsBlink: true
 
 	yocto:
-		machine: 'firefly-rk3328-cc'
+		machine: 'rk3328-roc-cc'
 		image: 'balena-image'
 		fstype: 'balenaos-img'
 		version: 'yocto-sumo'
-		deployArtifact: 'balena-image-firefly-rk3328-cc.balenaos-img'
+		deployArtifact: 'balena-image-rk3328-roc-cc.balenaos-img'
 		compressed: true
 
 	options: [ networkOptions.group ]
