@@ -1,3 +1,6 @@
+[submodule "layers/meta-balena-rockchip"]
+	path = layers/meta-balena-rockchip
+	url = https://gitlab.com/firefly-linux/yocto/meta-rockchip.git
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
 	url = https://github.com/balena-os/meta-balena.git
